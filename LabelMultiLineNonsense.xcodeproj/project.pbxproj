@@ -12,6 +12,7 @@
 		71577DC52058445F00D7FE0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71577DC32058445F00D7FE0A /* Main.storyboard */; };
 		71577DC72058445F00D7FE0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71577DC62058445F00D7FE0A /* Assets.xcassets */; };
 		71577DCA2058445F00D7FE0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71577DC82058445F00D7FE0A /* LaunchScreen.storyboard */; };
+		71577DD2205846B600D7FE0A /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71577DD1205846B600D7FE0A /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		71577DC62058445F00D7FE0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71577DC92058445F00D7FE0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71577DCB2058445F00D7FE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71577DD1205846B600D7FE0A /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				71577DBF2058445F00D7FE0A /* AppDelegate.swift */,
-				71577DC12058445F00D7FE0A /* ViewController.swift */,
-				71577DC32058445F00D7FE0A /* Main.storyboard */,
 				71577DC62058445F00D7FE0A /* Assets.xcassets */,
-				71577DC82058445F00D7FE0A /* LaunchScreen.storyboard */,
 				71577DCB2058445F00D7FE0A /* Info.plist */,
+				71577DC82058445F00D7FE0A /* LaunchScreen.storyboard */,
+				71577DC32058445F00D7FE0A /* Main.storyboard */,
+				71577DD1205846B600D7FE0A /* MyTableViewCell.swift */,
+				71577DC12058445F00D7FE0A /* ViewController.swift */,
 			);
 			path = LabelMultiLineNonsense;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				71577DC22058445F00D7FE0A /* ViewController.swift in Sources */,
 				71577DC02058445F00D7FE0A /* AppDelegate.swift in Sources */,
+				71577DD2205846B600D7FE0A /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
